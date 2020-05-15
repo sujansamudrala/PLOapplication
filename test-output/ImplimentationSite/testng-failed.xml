@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ImplimentationSite]">
+  <listeners>
+    <listener class-name="com.impl.ExtentReportListener.CustomListeners"/>
+  </listeners>
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="com.impl.testcases.StartLoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="startDashboard"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.impl.testcases.StartLoginPageTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [ImplimentationSite] -->
